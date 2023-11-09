@@ -1,26 +1,12 @@
-.hero-background-top {
-    background-image: url(../../../public/img/hero-background-top.png);
-    height: 200px;
-}
 
-.hero-background-top{
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    width: 100%;
-}
-.line-bottom {
+.line-bottom-header {
     position: relative;
 }
 
-.line-bottom::before {
+.line-bottom-header::before {
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .16) 50%, rgba(255, 255, 255, 0) 100%);
     content: "";
     height: 1px;
     position: absolute;
     width: 100%;
-}
-
-.bg-head{
-    background: radial-gradient(47.84% 61.25% at 50% 0%,rgba(113,61,255,.06) 0%,rgba(113,61,255,0) 100%),radial-gradient(28.37% 15.33% at 50% 42.67%,rgba(113,61,255,.2) 0%,rgba(113,61,255,0) 100%) ;
 }
