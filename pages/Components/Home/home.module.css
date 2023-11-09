@@ -1,0 +1,22 @@
+.wrap{
+    position: absolute;
+    top: 200px;
+    /* width: auto; */
+}
+.cus-box{
+    border: 2px solid #282931;
+    border-radius: 20px;
+    transition: all .2s;
+    overflow: hidden;
+}
+.img-website{
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    width: 140px;
+    height: 140px;
+    border: 10px solid #202126;
+    border-radius: 50%;
+}
+.ss{
+    max-height: 520px;
+}
