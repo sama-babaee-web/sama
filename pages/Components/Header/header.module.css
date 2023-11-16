@@ -1,4 +1,3 @@
-
 .line-bottom-header {
     position: relative;
 }
@@ -9,4 +8,55 @@
     height: 1px;
     position: absolute;
     width: 100%;
+    margin-top: 20px;
+}
+
+.button {
+    width: 6em;
+    position: relative;
+    height: 3.5em;
+    border: 1px ridge #202126;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex; justify-content: center;
+    align-items: center;
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+    transition: 0.5s;
+    transform-origin: center;
+}
+
+.button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+    transition: 0.5s;
+}
+
+.button:hover::before,
+.button:hover::after {
+    transform: scale(0)
+}
+
+.button:hover {
+    box-shadow: inset 0px 0px 25px #202126;
 }

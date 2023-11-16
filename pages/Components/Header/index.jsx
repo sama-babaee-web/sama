@@ -11,7 +11,7 @@ function Header() {
                             <Image
                                 src="/img/logo.png"
                                 width={180}
-                                height={80}
+                                height={50}
                                 alt="سما بابایی"
                                 priority
                             />
@@ -22,18 +22,19 @@ function Header() {
                         <div className="navbar-collapse justify-content-end align-items-center collapse" id="navbarNavAltMarkup">
                             <div className="navbar-nav d-flex align-items-center">
                                 <ul className="navbar-nav text-center">
-                                    <li className="nav-item px-4">
-                                        <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                    <li className="nav-item px-3">
+                                        <a className={` ${styles["button"]}  nav-link`} aria-current="page" href="#">Home</a>
                                     </li>
-                                    <li className="nav-item px-4">
-                                        <a className="nav-link" href="#">Features </a>
+                                    <li className="nav-item px-3">
+                                        <a className={` ${styles["button"]}  nav-link`} aria-current="page" href="#">Home</a>
                                     </li>
-                                    <li className="nav-item px-4">
-                                        <a className="nav-link" href="#">Pricing</a>
+                                    <li className="nav-item px-3">
+                                        <a className={` ${styles["button"]}  nav-link`} aria-current="page" href="#">Home</a>
                                     </li>
-                                    <li className="nav-item px-4">
-                                        <a className="nav-link disabled" aria-disabled="true">Disabled</a>
+                                    <li className="nav-item px-3">
+                                        <a className={` ${styles["button"]}  nav-link`} aria-current="page" href="#">Home</a>
                                     </li>
+
                                 </ul>
                             </div>
                         </div>
