@@ -1,4 +1,4 @@
-.cus-box{
+.cusBox {
     border: 1px solid rgba(255, 255, 255, .1);
     border-radius: 20px;
     transition: all .2s;
@@ -7,28 +7,29 @@
     /* background: linear-gradient(120deg, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 0.065) 10%, rgba(255, 255, 255, 0) 50% ,rgba(255, 255, 255, 0) 100%); */
 
 }
-.icons{
+
+.icons {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
     padding: 5px;
     border-radius: 50%;
     color: #fff;
     transition: 0.5s ease;
+    margin: 0 10px;
+    background: linear-gradient(0deg, #251C31 0%, #251C31 100%), #251C31;
+    box-shadow: 0px 0px 18px -7px #d488fab0 inset;
+
+
 }
-.icons:hover{
-    margin-top: -10px;  
+
+.icons:hover {
+    margin-top: -15px;
     transform: translate(0, -8);
-}   
-.instagram:hover{
-    color: #d6249f !important;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%) !important;
-    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%) !important;
-    background-clip: text !important;
-    -webkit-background-clip: text !important;
+
 }
-/* ss{
-    color: #dac4f7bb;
-} */
+.ss{
+    max-height: 620px !important;
+}

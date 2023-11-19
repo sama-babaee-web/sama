@@ -1,0 +1,20 @@
+.socials {
+    /* background-color: #111217; */
+    /* background: rgba(255, 255, 255, .04); */
+    background: linear-gradient(to bottom,
+            transparent,
+            rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    flex-flow: column;
+    margin-top: -100px;
+    display: flex;
+}
+
+.social-item {
+    padding: 14px;
+}
+.social-item:hover *{
+    color: rgba(187, 132, 238, 0.818)!important;
+}

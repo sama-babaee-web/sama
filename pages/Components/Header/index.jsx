@@ -4,7 +4,7 @@ import styles from './header.module.css'
 function Header() {
     return (
         <>
-            <header className="col-12 m-0 ">
+            <header className="col-12 m-0 py-4">
                 <nav className="navbar navbar-expand-lg headerNav__sama">
                     <div className="container-fluid">
                         <Link href='/' className="navbar-brand">

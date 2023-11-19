@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import '@/styles/globals.css'
 import { useEffect } from "react";
-import CustomCursor from './Components/CustomCursor';
+// import CustomCursor from './Components/CustomCursor';
 
 function App({ Component, pageProps }) {
 
@@ -13,7 +13,7 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
-      <CustomCursor />
+      {/* <CustomCursor /> */}
     </>
   )
 }
