@@ -8,7 +8,7 @@
     height: 1px;
     position: absolute;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .button {
@@ -59,4 +59,9 @@
 
 .button:hover {
     box-shadow: inset 0px 0px 25px #202126;
+}
+
+.iconh{
+    width: 100px !important;
+    height: 100px !important;
 }

@@ -49,3 +49,18 @@ a {
     color-scheme: dark;
   }
 }
+
+.cusBox {
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 30px;
+  transition: all 1.4s;
+  overflow: hidden;
+  background: rgba(255, 255, 255, .04);
+  /* background: linear-gradient(120deg, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 0.065) 10%, rgba(255, 255, 255, 0) 50% ,rgba(255, 255, 255, 0) 100%); */
+
+}
+.cusBox:hover{
+  border: 2px solid  rgba(187, 132, 238, 0.64);
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 0.065) 10%, rgba(255, 255, 255, 0) 50% ,rgba(255, 255, 255, 0) 100%);
+
+}

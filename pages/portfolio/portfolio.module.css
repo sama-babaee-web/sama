@@ -1,0 +1,58 @@
+.card {
+    background: linear-gradient(to bottom,
+            transparent,
+            rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+    padding: 20px !important;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    transition: all 0.4s !important;
+    border-radius: 30px;
+}
+
+.card:hover {
+    transition: color 1s;
+    background: rgba(255, 255, 255, .04);
+    border: 1px solid rgba(187, 132, 238, 0.64);
+
+
+}
+
+.card:hover:before {
+    animation: none;
+    opacity: 0;
+}
+
+.card::before {
+    border-radius: 30px;
+    content: "";
+    width: 104%;
+    height: 102%;
+    background-image: linear-gradient(var(--rotate), #d15dff, #983ce3 43%, #4e00c2);
+    position: absolute;
+    z-index: -1;
+    top: -1%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+}
+
+
+@keyframes spin {
+    0% {
+        --rotate: 0deg;
+    }
+
+    100% {
+        --rotate: 360deg;
+    }
+}
+
+.imgCard {
+    border-radius: 30px;
+    transition: 1s;
+
+}
+.imgCard:hover {
+    scale: 1.1;
+}
+
