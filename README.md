@@ -1,4 +1,4 @@
-[Demo]([https://github.com/sama-babaee-web/samaaap](https://samababaee.vercel.app/))
+[Demo](https://github.com/sama-babaee-web/samaaap](https://samababaee.vercel.app/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
