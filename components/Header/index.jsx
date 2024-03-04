@@ -8,13 +8,6 @@ function Header() {
                 <nav className="navbar navbar-expand-lg headerNav__sama">
                     <div className="container-fluid">
                         <Link href='/' className="navbar-brand">
-                            {/* <Image
-                                src="/img/logo.png"
-                                width={180}
-                                height={50}
-                                alt="سما بابایی"
-                                priority
-                            /> */}
                             <lord-icon
 
                                 src="https://cdn.lordicon.com/spsqhhyu.json"

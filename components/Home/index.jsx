@@ -14,7 +14,7 @@ function HomeWrapper() {
 
                     <div className='pe-lg-4 py-2'>
                         <Image className={`${styles.ss} img-fluid col-12 p-0 m-0 cusBox `}
-                            src="/img/sama1.webp"
+                            src="/img/sama.webp"
                             width={500}
                             height={500}
                             alt="سما بابایی"
