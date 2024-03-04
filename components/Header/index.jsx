@@ -4,7 +4,7 @@ import styles from './header.module.css'
 function Header() {
     return (
         <>
-            <header className="col-12 m-0  mb-5">
+            <header className="col-12 m-0  mb-2">
                 <nav className="navbar navbar-expand-lg headerNav__sama">
                     <div className="container-fluid">
                         <Link href='/' className="navbar-brand">
@@ -15,7 +15,7 @@ function Header() {
                                 stroke="bold"
                                 style={{
                                     width: '200px',
-                                    height: '100px'
+                                    height: '60px'
                                 }}
                             >
                             </lord-icon>
@@ -26,14 +26,14 @@ function Header() {
                         <div className="navbar-collapse justify-content-end align-items-center collapse" id="navbarNavAltMarkup">
                             <div className="navbar-nav d-flex align-items-center">
                                 <ul className="navbar-nav text-center">
-                                    <li className="nav-item px-3">
+                                    <li className="nav-item px-3 py-2 py-lg-0">
                                         <a className={` ${styles["button"]}  nav-link`} href="/">Home</a>
                                         
                                     </li>
-                                    <li className="nav-item px-3">
+                                    <li className="nav-item px-3 py-2 py-lg-0">
                                         <a className={` ${styles["button"]}  nav-link`} href="/portfolio">Portfolio</a>
                                     </li>
-                                    <li className="nav-item px-3">
+                                    <li className="nav-item px-3 py-2 py-lg-0">
                                         <a className={` ${styles["button"]}  nav-link`} href="/skills">Skills</a>
                                     </li>
  

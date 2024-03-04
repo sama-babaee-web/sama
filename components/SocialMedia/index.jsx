@@ -17,7 +17,7 @@ function SocialMedia() {
             <BiLogoTelegram className={` ${styles["telegram"]} h3 `}/>
           </Link>
 
-          <Link href="https://instagram.com/sama.babaee_?igshid=MzNlNGNkZWQ4Mg==" className={` ${styles["social-item"]} `}>
+          <Link href="https://instagram.com/sama_babaee_?igshid=MzNlNGNkZWQ4Mg==" className={` ${styles["social-item"]} `}>
             <BiLogoInstagram className={` ${styles["instagram"]} h3 `}/>
           </Link>
           <Link href="https://github.com/sama-babaee-web" className={` ${styles["social-item"]}`}>

@@ -3,6 +3,7 @@ import '@/styles/globals.css'
 import { useEffect } from "react";
 import Layout from '@/components/layout';
 import Head from 'next/head'
+import CustomCursor from '@/components/CustomCursor'
 
 function App({ Component, pageProps }) {
 
@@ -26,6 +27,7 @@ function App({ Component, pageProps }) {
 
       </Head>
       <Layout>
+      <CustomCursor />
         <Component {...pageProps} />
       </Layout>
     </>

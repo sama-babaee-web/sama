@@ -14,7 +14,7 @@ function HomeWrapper() {
 
                     <div className='pe-lg-4 py-2'>
                         <Image className={`${styles.ss} img-fluid col-12 p-0 m-0 cusBox `}
-                            src="/img/sama.webp"
+                            src="/img/sama4.png"
                             width={500}
                             height={500}
                             alt="سما بابایی"
@@ -38,7 +38,17 @@ function HomeWrapper() {
                         <div className="col-12 col-lg-7 m-0 p-0 my-2 my-lg-0">
                             <div className={` ${styles[""]} py-3 p-1 h-100 d-flex row m-0 p-0 align-items-center cusBox`}>
                                 <div className="">
-                                    <p className={` ${styles[""]} w-50 p-2 cusBox`}>  <BiRadioCircle /> WELCOME TO MY WORLD  </p>
+                                    <p className={` ${styles[""]}  p-2 cusBox`}>  <BiRadioCircle /> WELCOME TO MY WORLD  </p>
+                                    <lord-icon
+                                        src="https://cdn.lordicon.com/tltikfri.json"
+                                        trigger="loop"
+                                        state="hover-rotate-up-to-down"
+                                        style={{
+                                            width: '40px',
+                                            height: '40px'
+                                        }}
+                                    >
+                                    </lord-icon>
                                 </div>
                                 <div className="col-12 p-0">
                                     <div className="row m-0">
@@ -53,7 +63,17 @@ function HomeWrapper() {
                         <div className="col-12 col-lg-5 ps-lg-3  m-0 p-0 my-2 my-lg-0">
                             <div className={` ${styles[""]} py-3 p-1 h-100 d-flex row m-0 p-0 align-items-center cusBox `}>
                                 <div className="">
-                                    <p className={` ${styles[""]} w-50 p-2 cusBox`}>  <BiRadioCircle /> CONTACT   </p>
+                                    <p className={` ${styles[""]}  p-2 cusBox`}>  <BiRadioCircle /> CONTACT   </p>
+                                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                                    <lord-icon
+                                        src="https://cdn.lordicon.com/vurwejde.json"
+                                        trigger="loop"
+                                        state="hover-rotate-up-to-down"
+                                        style={{
+                                            width: '40px',
+                                            height: '40px'
+                                        }}>
+                                    </lord-icon>
                                 </div>
                                 <div className="col-12 p-0">
                                     <div className="row m-0 p-0">
@@ -87,7 +107,8 @@ function HomeWrapper() {
                         <div className={` ${styles[""]} py-3 p-1  d-flex row m-0 p-0 align-items-center cusBox`}>
 
                             <div className="  ">
-                                <p className={` ${styles[""]} w-50 p-2 cusBox`}>  <BiRadioCircle /> BEST SKILL ON   </p>
+                                <p className={` ${styles[""]}  p-2 cusBox`}>  <BiRadioCircle /> BEST SKILL ON   </p>
+                                
                             </div>
                             <div className="row col-12 m-0 p-0 d-flex justify-content-center ">
                                 <div className="d-flex justify-content-center  py-5 row">
